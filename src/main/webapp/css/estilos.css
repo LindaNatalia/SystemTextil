@@ -1,0 +1,93 @@
+.bg--gris{
+background-color: darkgray;
+}
+
+.m--top-10{
+    margin-top: 10px;
+}
+
+.m--top-100{
+    margin-top: 100px;
+}
+
+
+hr{
+    height:3px !important;
+}
+
+.esp--separador{
+    margin-top: 1rem;
+}
+
+.centro-text{
+    display:flex;
+    align-items: center;
+}
+
+#seccion1{
+    margin-top: 150px;
+}
+
+@media (min-width: 576px) { 
+    #sec1{
+        margin-top: 150px;
+    }
+}
+
+.imgnormalizada--img {
+    height: 350px;
+    max-height: 500px;
+}
+
+.imgperfil--img {
+    height: 200px;
+    max-height: 300px;
+}
+
+h1{
+    font-family: 'Aclonica', sans-serif;
+    color:rgb(245, 91, 125);
+}
+
+.estilo--letra{
+    font-family: 'Andada Pro', serif;
+    color:rgb(245, 11, 11);
+}
+
+/*estilos para tablas*/
+table th {
+    background-color: rgb(87, 87, 141) !important;
+    color : white
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+
+#mydatatable tfoot input {
+    width: 100% !important;
+}
+
+#mydatatable tfoot {
+    display: table-header-group !important;
+}
+
+.thead-green {
+  background-color: rgb(0, 99, 71);
+  color: white;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgb(217, 235, 235);
+}
+
+.table-hover tbody tr:hover {
+      background-color: rgba(122, 114, 81, 0.7);
+      color: rgb(112, 24, 78);
+}

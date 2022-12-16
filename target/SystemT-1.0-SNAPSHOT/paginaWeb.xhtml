@@ -1,0 +1,303 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link rel="stylesheet" href="css/estilos.css" ></link>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous"></link>
+    </h:head>
+    <h:body>
+        <header>
+            <div class="row fixed-top">
+                <nav class="navbar navbar-light bg-light">
+                    <link  rel="icon"   href="assets/images/favicon.png" type="image/png" />
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src= "img-icon/Logo-ST.png" alt="" width="80" height="44" class="d-inline-block align-text-top"></img>
+                            Textiles Emanuel
+                            <a class="navbar-brand"></a>
+                        </a>
+                    </div>
+                </nav>
+                <header class="p-3 bg-dark text-white ">
+                    <div class="container">
+                        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+                            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                            </a>
+                            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0 ">
+                                <li><a href="#seccion1" class="nav-link px-2 text-white">Inicio</a></li>
+                                <li><a href="#seccion2" class="nav-link px-2 text-white">Nosotros</a></li>
+                                <li><a href="#seccion3" class="nav-link px-2 text-white">Catálogo</a></li>
+                                <li><a href="#seccion4" class="nav-link px-2 text-white">Contacto</a></li>
+                            </ul>
+                            <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+                                <input type="search" class="form-control form-control-dark" placeholder="Search..." aria-label="Search"></input>
+                            </form>
+                            <a href="authentication-login.html">
+                                <button type="button" class="btn btn-outline-light me-2 ">Inicio sesión</button>
+                            </a>
+                            <a href="authentication-register.html">
+                                <button type="button" class="btn btn-danger">Registrarse</button>
+                            </a>     
+                        </div>
+                    </div>
+                </header>
+            </div>
+        </header>
+        <!--imágenes principales-->
+        <section id="seccion1"> 
+            <div class="container">
+                <hr/>
+                <h1 class="fluid text-center" >TEXTILES EMANUEL</h1>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active imgnormalizada--img">
+                            <img src="img-icon/tela2.jpg" class="d-block w-100 img-thumbnail" alt="..."></img>
+                        </div>
+                        <div class="carousel-item imgnormalizada--img">
+                            <img src="img-icon/tela5.jpg" class="d-block w-100" alt=""></img>
+                        </div>
+                        <div class="carousel-item imgnormalizada--img">
+                            <img src="img-icon/tela3.jpg" class="d-block w-100" alt="..."></img>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!--sobre la empresa-->
+        <section id="seccion2">
+            <div class="container">
+                <hr/>
+                <div class="row">
+                    <div class="col  ">
+                        <img src="img-icon/tela0.jpg" class="img-fluid imgperfil--img" alt="..."></img>
+                    </div>
+                    <div class="col centro-text text-center">
+                        <div>
+                            <h2 class="estilo--letra">
+                                MISIÓN
+                            </h2>
+                            <p>
+                                Buscamos complementar el comercio textil ofreciendo productos de alta calidad,
+                                pretendemos a partir de nuestros excelentes productos y servicios ganar reconocimiento por
+                                parte de pequeños y grandes comerciantes y fabricantes de prendas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col centro-text text-center">
+                        <div>
+                            <h2 class="estilo--letra">
+                                VISIÓN
+                            </h2>
+                            <p>
+                                Estamos enfocados en un constante crecimiento para nuestra empresa, es decir, nos 
+                                centramos principalmente en el aumento de nuestro capital y la expansión tanto física como 
+                                virtual de nuestras sedes, esto también con el objetivo de obtener reconocimiento por nuestros 
+                                buenos productos, generando mayor clientela y en definitiva mayores ganancias económicas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <img src="img-icon/hilo2.jpg" class="img-fluid imgperfil--img" alt="..."></img>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!--catalogo con imagenes-->
+        <section id="seccion3">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <img src="img-icon/1blancox.jpg" class="card-img-top imgperfil--img" alt="..."></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title fluid text-center estilo--letra">Algodón</h5>
+                                        <p class="card-text col centro-text text-center">
+                                            El algodón es una fibra natural, por lo que no precisa de una transformación industrial. 
+                                            La tela hecha de algodón es una de las más versátiles y se caracteriza por su suavidad y permeabilidad.
+                                            También se distingue por ser resistente, incluso al lavado fuerte, y no causa alergias e irritaciones en la piel.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img-icon/3verde.jpg" class="card-img-top imgperfil--img" alt="..."></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title fluid text-center estilo--letra ">Lana</h5>
+                                        <p class="card-text col centro-text text-center">
+                                            La lana es otra fibra natural y ésta proviene de los animales, puede mezclarse con fibras 
+                                            sintéticas para mejorar su proceso de lavado y limpieza. Es una tela cálida en temporada de frío y fresca en
+                                            temporada de calor; y fácil de teñir, por lo que los confeccionistas la prefieren para diseñar pantalones, 
+                                            trajes, abrigos e, incluso, alfombras y fundas de cojines. El punto negativo de la lana es que puede desgastarse
+                                            con el sol, si no se tienen los cuidados correctos.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img-icon/2rojo.jpg" class="card-img-top imgperfil--img" alt="..."></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title fluid text-center estilo--letra ">Seda</h5>
+                                        <p class="card-text col centro-text text-center">
+                                            Es la tela predilecta para la confección de ropa de cama, tapicería y ropa de lujo. 
+                                            Entre sus ventajas están que tiene un hermoso brillo natural, es una tela resistente y duradera, 
+                                            es hipoalergénica y transpirable. Como contras, es una tela que estropea fácilmente con la luz 
+                                            solar y la humedad. 
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <img src="img-icon/7rosado.jpg" class="card-img-top imgperfil--img " alt="..."></img>
+                                    <div class="card-body">
+                                        <h5 class="card-title fluid text-center estilo--letra">Poliéster</h5>
+                                        <p class="card-textcol centro-text text-center ">
+                                            Es una de las telas sintéticas más populares por su resistencia y porque 
+                                            conserva su forma, no se arruga ni se encoge, y es fácil de limpiar. La tela tiene propiedades 
+                                            termoplásticas, esto significa que se puede cortar con láser para sacar distintos patrones. 
+                                            Con frecuencia vemos esta tela, o una mezcla, en las faldas y vestidos. Es sedosa y de colores 
+                                            brillantes, aunque uno de sus puntos negativos es que casi no absorbe la humedad.
+                                        </p>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--formulario para contactar-->
+        <section id="seccion4">
+            <div class="container">
+                
+                <div class="row">
+                    <!--Section: Contact v.2-->
+                    <section class="mb-4">
+                        <!--Section heading-->
+                        <h2 class="h1-responsive font-weight-bold text-center my-4 estilo--letra ">Contáctenos</h2>
+                        <!--Section description-->
+                        <p class="text-center w-responsive mx-auto mb-5">¿Tiene alguna pregunta? Por favor no dude en escribirnos. Nuestro equipo se prondrá en contacto
+                            en cuestion de horas para ayudarlo.</p>
+                        <div class="row">
+                            <!--Grid column-->
+                            <div class="col-md-9 mb-md-0 mb-5">
+                                <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="name" name="name" class="form-control"> </input>
+                                                    <label for="name" class="">Nombre</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+                                        <!--Grid column-->
+                                        <div class="col-md-6">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="email" name="email" class="form-control"></input>
+                                                    <label for="email" class="">Correo</label>
+                                            </div>
+                                        </div>
+                                        <!--Grid column-->
+                                    </div>
+                                    <!--Grid row-->
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="md-form mb-0">
+                                                <input type="text" id="subject" name="subject" class="form-control"></input>
+                                                    <label for="subject" class="">Asunto</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+                                    <!--Grid row-->
+                                    <div class="row">
+                                        <!--Grid column-->
+                                        <div class="col-md-12">
+                                            <div class="md-form">
+                                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                                <label for="message">Mensaje</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--Grid row-->
+                                </form>
+                                <div class="text-center text-md-left">
+                                    <a class="btn btn-danger" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                                </div>
+                                <div class="status"></div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-3 text-center">
+                                <ul class="list-unstyled mb-0">
+                                    <li><i class="fas fa-map-marker-alt fa-2x"></i>
+                                        <p>Calle 5 Sur # 12 – 24, Bogotá D.C.</p>
+                                    </li>
+                                    <li><i class="fas fa-phone mt-4 fa-2x"></i>
+                                        <p>+ 407 5428</p>
+                                    </li>
+                                    <li><i class="fas fa-envelope mt-4 fa-2x"></i>
+                                        <p>teo8712@hotmail.com</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--Grid column-->
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <section id="seccion7">
+            <div class="container">
+                <footer class="py-3 my-4 text-black ">
+                    <ul class="nav justify-content-center border-bottom pb-3 mb-3 ">
+                        <li class="nav-item ">
+                            <a class="nav-link text-black" href="#seccion1">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#seccion2">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#seccion3">Catalogo</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-black " href="#seccion4">Contáctenos</a>
+                        </li>
+                    </ul>
+                    <p class="text-center text-muted">© 2022 Textiles Emanuel Inc</p>
+                </footer>
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    </h:body>
+</html>
